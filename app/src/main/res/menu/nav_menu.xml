@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_thu"
+            android:title="@string/nav_item_khoan_thu"
+            android:icon="@drawable/ic_nav_khoangthu"
+            />
+        <item
+            android:id="@+id/nav_item_chi"
+            android:title="@string/nav_item_khoan_chi"
+            android:icon="@drawable/ic_nav_khangchi"
+            />
+        <item
+            android:id="@+id/nav_item_thongke"
+            android:title="@string/nav_item_thong_ke"
+            android:icon="@drawable/ic_nav_thongke"
+            />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_item_gioithieu"
+                android:title="@string/nav_item_gioi_thieu"
+                android:icon="@drawable/ic_nav_gioithieu"
+                />
+            <item
+                android:id="@+id/nav_item_thoat"
+                android:title="@string/nav_item_thoat"
+                android:icon="@drawable/ic_nav_thoat"
+                />
+        </menu>
+    </item>
+
+</menu>

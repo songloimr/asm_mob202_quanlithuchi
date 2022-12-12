@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_thoigian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:text="05/12/2022" />
+
+        <TextView
+            android:id="@+id/tv_mota_thuchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_loai_thuchi"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:textSize="10sp"
+            android:text="Noi dung mo ta" />
+
+        <TextView
+            android:id="@+id/tv_loai_thuchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tenkhoan_thuchi"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:text="Loai thu" />
+
+        <TextView
+            android:id="@+id/tv_tenkhoan_thuchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:text="ten khoan thu"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sotien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_thoigian"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="+500.000"
+            android:textColor="#27ae60"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_edit_khoan_thuchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_sotien"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/background_radius_green"
+            android:backgroundTint="#01549d"
+            android:drawableLeft="@drawable/ic_baseline_edit_24"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/btn_delete_khoan_thuchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_sotien"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toStartOf="@+id/btn_edit_khoan_thuchi"
+            android:background="@drawable/background_radius_green"
+            android:backgroundTint="#e74c3c"
+            android:drawableStart="@drawable/ic_item_delete"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

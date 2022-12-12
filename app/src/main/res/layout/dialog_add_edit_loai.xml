@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_radius_green"
+    android:backgroundTint="@color/white"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_add_edit_loai_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Thêm loại thu" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dialog_add_edit_loai_etTenLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        android:hint="Tên Loại Thu/Chi">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_margin="2dp"
+            android:id="@+id/dialog_add_edit_loai_btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#bdc3c7"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/cancel"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:id="@+id/dialog_add_edit_loai_btnConfirm"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/edit"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quản lí thu chi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="transaction_name">Tên giao dịch</string>
+    <string name="money">Tiền</string>
+    <string name="note">Ghi chú</string>
+    <string name="time">Thời gian</string>
+    <string name="are_u_sure">Bạn có chắc chắn muốn xoá "%s" ?</string>
+    <string name="cancel">Huỷ bỏ</string>
+    <string name="edit">Sửa</string>
+    <string name="add">Thêm</string>
+    <string name="ok">OK</string>
+
+    <string name="nav_open">Quan Li Thu Chi</string>
+    <string name="nav_close">Quan Li Thu Chi</string>
+    <string name="nav_item_khoan_thu">Khoản thu</string>
+    <string name="nav_item_khoan_chi">Khoản chi</string>
+    <string name="nav_item_gioi_thieu">Giới thiệu</string>
+    <string name="nav_item_thong_ke">Thống kê</string>
+    <string name="nav_item_thoat">Thoát</string>
+</resources>
